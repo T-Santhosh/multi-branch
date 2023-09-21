@@ -41,4 +41,4 @@ spec:
   - name: "node-app"
     port: 3000
     targetPort: 3000
-    nodePort: 30007
+    
