@@ -4,6 +4,7 @@ pipeline {
         stage ('git checkout'){
             steps{
                 script{
+                    git branch: 'node-dev', url: 'https://github.com/T-Santhosh/multi-branch.git'
                 }
             }
         }
