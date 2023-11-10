@@ -1,6 +1,12 @@
 pipeline {
     agent any
     stages {
+        stage ('git checkout'){
+            steps{
+                script{
+                }
+            }
+        }
         stage ('Build') {
             steps {
                 script{
