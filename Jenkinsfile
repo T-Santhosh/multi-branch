@@ -10,6 +10,6 @@ node{
         sh 'mv target/onlinebookstore.war target/newapp.war'
     }
     stage('Build Docker Image'){
-        sh 'docker build -t myimg/latest .'
+        sh 'docker build -t naresh2603/latest .'
     }
 }
